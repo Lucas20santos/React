@@ -1,2 +1,7 @@
 # React
-Introdução ao ReactJS para aplicação em um projeto
+
+O objetivo é aprender React para aplicação em projeto
+
+## Introdução ao JavaScript
+
+
