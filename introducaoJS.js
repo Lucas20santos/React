@@ -39,5 +39,16 @@ console.log(parseInt("12e345", 10)) // retorna 12
 console.log(parseFloat("12m34"))    // retorna 12
 console.log(parseFloat(12e34))      // retornará o número 12e+34
 
+// String
 
+console.log("hello".length)   // verificando o tamanho da string
 
+console.log("hello".charAt(0))      // esse método retorna o caractere que tem o indice com o valor passado
+console.log("hello, world".replace("hello", "goodbye")) // troca a palavra hello por goodbye
+console.log("hello".toLocaleUpperCase())
+
+// Booleano
+
+console.log(Boolean("")) // retorna false
+console.log(Boolean(0)) // retorna false
+console.log(Boolean(1)) // retorna true
