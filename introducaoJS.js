@@ -52,3 +52,42 @@ console.log("hello".toLocaleUpperCase())
 console.log(Boolean("")) // retorna false
 console.log(Boolean(0)) // retorna false
 console.log(Boolean(1)) // retorna true
+
+
+// Objetos em JavaScript
+// Declaração
+
+var obj = new Object();
+var obj = {}    // sintaxe de literal de objeto e é mais conveniente
+
+
+obj.name = "Simon";
+var name = obj.name;
+
+console.log(name)
+
+obj["name"] = "Simon";
+var name = obj["name"];
+
+console.log(name)
+
+var obj = {
+    name: "Carrot",
+    "for": "Max",
+    details: {
+        color: "orange",
+        size: 12
+    }
+}
+
+console.log(obj.details.color)
+
+// Funções
+
+function add(x, y) {
+    var total = x + y;
+    return total;
+}
+
+
+
