@@ -9,7 +9,8 @@ Aqui é visto um pouco da sintaxe básica do javascript, recomendado pela docume
 Aqui é pra quem prefere aprender criando um projeto do zero. Neste tutorial será criado do zero um pequeno jogo. Não tenha medo e dê uma chance a esse tutorial(essa apelação veio do site...)
 
 Para quem prefere aprender passo a passo segue o link logo abaixo:
-[https://pt-br.reactjs.org/docs/hello-world.html](React Passo a Passo)
+
+[React Passo a Passo](https://pt-br.reactjs.org/docs/hello-world.html)
 
 ### Criação de um jogo da velha
 
@@ -23,3 +24,16 @@ Esse tutorial vai ensinar a criar um jogo com react
   - objetos
   - matrizes
   - classes
+- node e npm instalado no computador
+
+Para rodar o react use os comando no terminal e espere ele criar todos os diretórios e arquivos de configurações:
+
+> npx create-react-app my-app
+
+Depois entre na pasta criada, usando o comando abaixo:
+
+> cd my-app
+
+Dentro da pasta, no terminal novamente, rode o comando abaixo:
+
+> npm start
