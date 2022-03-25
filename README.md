@@ -37,3 +37,13 @@ Depois entre na pasta criada, usando o comando abaixo:
 Dentro da pasta, no terminal novamente, rode o comando abaixo:
 
 > npm start
+
+### O que é React
+
+É uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário.
+
+### Componentes
+
+- São pequenos código isolados
+- Usamos componentes para dizer ao React o que queremos ver na tela.
+- Um componente recebe parâmetros chamados *props*(propriedades) e retorna uma hierarquia de elementos para exibir através do método *render* e o método *render* retorna uma descrição do que você deseja ver na tela e o react recebe a requisição.
