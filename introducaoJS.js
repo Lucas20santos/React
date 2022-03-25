@@ -88,6 +88,3 @@ function add(x, y) {
     var total = x + y;
     return total;
 }
-
-
-
