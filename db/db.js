@@ -1,4 +1,22 @@
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize('postgres://postgres@localhost:5432/banco_teste', {dialect: 'postgres'});
+const { Pool, Client } = require('pg')
+const connectionString = 'postgresql://dbuser:secretpassword@database.server.com:3211/mydb'
+const pool = new Pool({
+  connectionString,
+})
+pool.query('SELECT NOW()', (err, res) => {
+  console.log(err, res)
+  pool.end()
+})
+const client = new Client({
+  connectionString,
+})
+client.connect()
+client.query('SELECT NOW()', (err, res) => {
+  console.log(err, res)
+  client.end()
+})
 
-module.exports = sequelize;
+
+
+
+
