@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(todosRoutes);
 
 app.get('/', (req, res) => {
-    return res.json("up")
+    return res.json("up - down");
 });
 
 app.listen(3333, () => {
