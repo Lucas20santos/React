@@ -47,3 +47,7 @@ Dentro da pasta, no terminal novamente, rode o comando abaixo:
 - São pequenos código isolados
 - Usamos componentes para dizer ao React o que queremos ver na tela.
 - Um componente recebe parâmetros chamados *props*(propriedades) e retorna uma hierarquia de elementos para exibir através do método *render* e o método *render* retorna uma descrição do que você deseja ver na tela e o react recebe a requisição.
+
+## Aula sobre Node JS
+
+[canal Guia do Programador](https://www.youtube.com/watch?v=QnTCre0HHv8&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&index=5)
