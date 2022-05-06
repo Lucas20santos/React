@@ -1,13 +1,14 @@
 import React from 'react'
-import logo from '../img/logo-login.png'
+import Menu from './menu/Menu';
+import './Header.css';
 
-function Header()
+export default function Header()
 {
     return(
-        <header>
-            <img src={logo} alt='logo login' />
-        </header>
+        <div className='header'>
+            <header>
+                <Menu />
+            </header>
+        </div>    
     )
 }
-
-export default Header

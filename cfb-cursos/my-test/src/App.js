@@ -1,13 +1,15 @@
-import './App.css';
-import Header from './components/Header';
+import React from 'react'
+import Header from './components/Header'
+import './App.css'
+// import Formulario from './components/Form/Formulario';
 
-function App() {
-  
+export default function App()
+{
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+      <div className='topo'>
+        <Header />
+      </div>
+    </>
   );
 }
-
-export default App;

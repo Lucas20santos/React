@@ -1,0 +1,12 @@
+.form label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form label input
+{
+    border-radius: 5px;
+}
+.form .button{
+    margin-left: 50px;
+    border-radius: 5px;
+}
