@@ -1,7 +1,10 @@
 import React from 'react'
 
-export default function index() {
+export default function index(props) 
+{
+  const { title } = props
+
   return (
-    <div>index</div>
+    <button>{title}</button>
   )
 }
