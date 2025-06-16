@@ -1,53 +1,43 @@
-# Introdução ao ReactJS
+# Estudos sobre ReatJS
 
-## Introdução ao JavaScript
+## Extensão usadas
 
-Aqui é visto um pouco da sintaxe básica do javascript, recomendado pela documentação da linguagem, já que o react é escrito em JavaScript.
+### Git e github
 
-## Tutorial React JS
+- Git Essentials
+- Gitlens - Git superchargeg
+- gitignore
+- Git Graph
+- Git History
+- Git Blame
+- Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !
+- git-autoconfig
+- Git Merger
+- Git tags
+- GitLab Workflow
 
-Aqui é pra quem prefere aprender criando um projeto do zero. Neste tutorial será criado do zero um pequeno jogo. Não tenha medo e dê uma chance a esse tutorial(essa apelação veio do site...)
+### markdown
 
-Para quem prefere aprender passo a passo segue o link logo abaixo:
+- Markdown All in One
+- Markdown Preview Enhanced
+- markdownlint
+- Markdown PDF
+- Instant Markdown
+- Markdown Preview Github Styling
+- Markdown Shortcuts
+- Markdown Theme Kit
 
-[React Passo a Passo](https://pt-br.reactjs.org/docs/hello-world.html)
+### Recact
 
-### Criação de um jogo da velha
-
-Esse tutorial vai ensinar a criar um jogo com react
-
-### Pré requisito
-
-- Saber conceitos básicos de Html e javascript
-- Conceitos básicos de Programação, tais como:
-  - funções
-  - objetos
-  - matrizes
-  - classes
-- node e npm instalado no computador
-
-Para rodar o react use os comando no terminal e espere ele criar todos os diretórios e arquivos de configurações:
-
-> npx create-react-app my-app
-
-Depois entre na pasta criada, usando o comando abaixo:
-
-> cd my-app
-
-Dentro da pasta, no terminal novamente, rode o comando abaixo:
-
-> npm start
-
-### O que é React
-
-É uma biblioteca JavaScript declarativa, eficiente e flexível para criar interfaces com o usuário.
-
-### Componentes
-
-- São pequenos código isolados
-- Usamos componentes para dizer ao React o que queremos ver na tela.
-- Um componente recebe parâmetros chamados *props*(propriedades) e retorna uma hierarquia de elementos para exibir através do método *render* e o método *render* retorna uma descrição do que você deseja ver na tela e o react recebe a requisição.
-
-## Aula sobre Node JS
-
-[canal Guia do Programador](https://www.youtube.com/watch?v=QnTCre0HHv8&list=PLJ_KhUnlXUPtbtLwaxxUxHqvcNQndmI4B&index=5)
+- Material Icon Theme
+- Rainbow Brackets 2
+- Prettier - Code format
+- Rainbow CSV
+- React Developer Tools
+- VSCode React Refactor
+- vscode-styled-components
+- Auto Close Tag
+- Code Runner
+- CSS Peek
+- ES7+React/Redux/React-Native Snippets
+- ESLint
