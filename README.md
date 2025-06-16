@@ -1,8 +1,8 @@
-# Estudos sobre ReatJS
+# Estudos sobre ReatJS 🧑🏻‍💻
 
-## Extensão usadas
+## Extensão usadas 🥇
 
-### Git e github
+### Git e github 🥈
 
 - Git Essentials
 - Gitlens - Git superchargeg
@@ -10,13 +10,13 @@
 - Git Graph
 - Git History
 - Git Blame
-- Open in GitHub, Bitbucket, Gitlab, VisualStudio.com !
+- Open in GitHub, Bitbucket, Gitlab, VisualStudio.com!
 - git-autoconfig
 - Git Merger
 - Git tags
 - GitLab Workflow
 
-### markdown
+### markdown 🥈
 
 - Markdown All in One
 - Markdown Preview Enhanced
@@ -27,7 +27,7 @@
 - Markdown Shortcuts
 - Markdown Theme Kit
 
-### Recact
+### Recact 🥈
 
 - Material Icon Theme
 - Rainbow Brackets 2
