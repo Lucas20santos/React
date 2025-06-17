@@ -70,6 +70,8 @@ Um componente é uma parte da interface do usuário que possui lógica e aparên
 
 `
 .avatar{
-    border-radius: 50%;
+
+border-radius: 50%;
+
 }
 `
