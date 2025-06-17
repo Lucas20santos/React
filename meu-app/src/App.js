@@ -1,6 +1,7 @@
 import './App.css';
 import Condicionais from './Condicionais';
 import Lista from './Lista'
+import Button from './Button'
 
 function App() 
 {
@@ -23,6 +24,7 @@ function App()
       />
       < Condicionais />
       <Lista />
+      <Button />
 
     </div>
   );
