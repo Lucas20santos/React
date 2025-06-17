@@ -1,9 +1,9 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
 import './App.css';
 import Condicionais from './Condicionais';
-import Lista from './Lista'
-import Button from './Button'
+import Lista from './Lista';
+import Button from './Button';
 
 function App() 
 {
