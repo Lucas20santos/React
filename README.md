@@ -41,3 +41,16 @@
 - CSS Peek
 - ES7+React/Redux/React-Native Snippets
 - ESLint
+
+## Conceito 📖
+
+- O que é componentes ?
+
+Um componente é uma parte da interface do usuário que possui lógica e aparência próprias. Um componente pode ser tão pequeno quanto um botão ou tão grande quanto uma página inteira.
+
+- componente React começa com letra maiuscúlas
+- tags html deve ser sempre em letra minúsculas
+
+### Escrevendo marcações com JSX
+
+- JSX é mais rigoroso que HTML, pois você precisa fechar tags como '\<br/>'
