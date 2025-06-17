@@ -1,16 +1,23 @@
 import React from 'react'
+// import { useState } from 'react'
 
-function Button() 
+function Button({ count, onClick, op})
 {
-    function handleClick()
+    let operacao = "somar";
+
+    if(op === "+")
     {
-        console.log("Clicked!");
+        operacao = "somar"
+    }
+    if (op === "-")
+    {
+        operacao = "Subtração";
     }
 
     return (
         <>
-            <button onClick={handleClick}>
-                Click me
+            <button onClick={onClick}>
+                {operacao}
             </button>
         </>
     );
