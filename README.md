@@ -53,4 +53,23 @@ Um componente é uma parte da interface do usuário que possui lógica e aparên
 
 ### Escrevendo marcações com JSX
 
-- JSX é mais rigoroso que HTML, pois você precisa fechar tags como '\<br/>'
+- JSX é mais rigoroso que HTML, pois você precisa fechar tags como '\<br />'
+- Os componentes não podem voltar várias tags, para fazer isso é preciso envolvê-las em um tag pai, como:
+  - \<div><\div>
+  - \<><\\>
+
+### Adicionando estilos
+
+- No React, você especifica uma classe CSS com className.
+
+`
+<img className="avatar">
+`
+
+- Então você escreve as regras CSS para ele em um arquivo CSS separado:
+
+`
+.avatar{
+    border-radius: 50%;
+}
+`
