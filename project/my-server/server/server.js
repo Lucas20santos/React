@@ -34,7 +34,7 @@ app.post('/login', (req, res) =>
 
     res.sendFile(NEW_LOCAL + "pages/home.html");
     
-    const emailCorreto = "lucas210souza@gmail.com";
+    const emailCorreto = "usuario@exemplo.com";
     const senhaCorreta = "senha123";
 
     if(emailRecebido === emailCorreto && senhaCorreta === senhaRecebida)
