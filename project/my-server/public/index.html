@@ -8,12 +8,19 @@
 </head>
 <body>
     <div class="login-container">
+        
         <div class="login-card">
+        
             <div class="user-icon"></div>
-            <input type="text" placeholder="Email ID" id="email" class="input-field">
-            <input type="password" placeholder="Password" id="password" class="input-field">
-            <button class="login-button" id="loginBtn">LOGIN</button>
+        
+            <form action="/login" id="loginForm" method="POST">
+                <input type="text" placeholder="Email ID" id="email" class="input-field">
+                <input type="password" placeholder="Password" id="password" class="input-field">
+                <button class="login-button" id="loginBtn">LOGIN</button>
+            </form>
+        
         </div>
+    
     </div>
 
     <script src="./scripts/script.js"></script>
