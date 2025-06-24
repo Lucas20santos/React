@@ -113,6 +113,9 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 Este projeto é um ponto de partida sólido para um sistema de login, mas há sempre espaço para expansão e aprimoramento. Aqui estão algumas ideias para futuras melhorias:
 
+* **Melhoras no Style do projeto**
+    * Organizar melhor o layout
+
 * **Autenticação Real com Banco de Dados:**
     * Integrar um banco de dados (ex: MongoDB com Mongoose, PostgreSQL com Sequelize) para armazenar usuários e senhas de forma persistente.
     * Implementar um sistema de **hash de senhas** (ex: usando `bcrypt.js`) antes de armazená-las no banco de dados, garantindo maior segurança.
