@@ -14,7 +14,7 @@ function handleLogin()
     else
     {
         alert("Login efetuado com sucesso!")
-        console.log(email, password)
+        window.location.href = './pages/home.html'
     }
 }
 
