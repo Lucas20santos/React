@@ -40,7 +40,7 @@ app.post('/login', (req, res) =>
     if(emailRecebido === emailCorreto && senhaCorreta === senhaRecebida)
     {
         console.log("Login bem-sucedido! Redirecionando...");
-        res.redirect("/home");
+        res.redirect("pages/home.html");
     }
     else
     {
