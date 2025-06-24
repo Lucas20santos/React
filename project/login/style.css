@@ -1,3 +1,4 @@
+/*1. Estilos Gerais e Fundo da Página (Body)*/
 body
 {
     margin: 0;
@@ -10,5 +11,93 @@ body
 
     background: linear-gradient(135deg, #2D0060, #800020 100%);
 }
+.login-card
+{
+    width: 300px;
+    pad: 40px;
+    border-radius: 20px;
 
+    background: rgba(70, 70, 90, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.user-icon
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.user-icon::before
+{
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.user-icon::after
+{
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.input-field
+{
+    width: calc(100% - 20px);
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #E0E0E0;
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    transition: border-botton-color 0.3 ease;
+}
+.input-field::placeholder
+{
+    color: rgba(255, 255, 255, 0.7);
+}
+.input-field:focus
+{
+    border-bottom-color: #FFFFFF;
+}
+.login-button
+{
+    width: 90%;
+    padding: 12px 20px;
+    background: rgba(122, 76, 96, 0.6);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    transition: background 0.3 ease;
+}
+
+.login-button:hover
+{
+    background: rgba(122, 76, 96, 0.8);
+}
