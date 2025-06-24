@@ -13,10 +13,10 @@
         
             <div class="user-icon"></div>
         
-            <form action="/login" id="loginForm" method="POST">
-                <input type="text" placeholder="Email ID" id="email" class="input-field">
-                <input type="password" placeholder="Password" id="password" class="input-field">
-                <button class="login-button" id="loginBtn">LOGIN</button>
+            <form id="loginForm" method="POST" action="/login">                
+                <input type="text" placeholder="Email ID" id="email" name="email" class="input-field">
+                <input type="password" placeholder="Password" id="password" name="password" class="input-field">
+                <button type="submit" class="login-button" id="loginBtn">LOGIN</button>
             </form>
         
         </div>
